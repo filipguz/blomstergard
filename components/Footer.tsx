@@ -9,9 +9,9 @@ export default function Footer() {
             <Image
               src="/images/logo01.png"
               alt="Den lille blomstergården"
-              width={180}
-              height={72}
-              className="h-12 w-auto"
+              width={320}
+              height={128}
+              className="h-24 w-auto mix-blend-multiply"
             />
           </a>
 
