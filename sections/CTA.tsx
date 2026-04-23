@@ -54,7 +54,9 @@ export default function CTA() {
               Send oss en melding
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/denlilleblomstergaarden/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-3 font-sans text-[0.7rem] tracking-[0.28em] uppercase text-muted-green px-8 py-5 border border-soft-gray hover:border-forest/40 hover:text-forest transition-all duration-400"
             >
               Følg oss
@@ -63,9 +65,14 @@ export default function CTA() {
         </FadeIn>
 
         <FadeIn delay={540}>
-          <p className="mt-10 font-sans text-[0.65rem] text-muted-green/50 tracking-widest uppercase">
-            @denlilleblomstergarden
-          </p>
+          <a
+            href="https://www.instagram.com/denlilleblomstergaarden/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-10 font-sans text-[0.65rem] text-muted-green/50 tracking-widest uppercase hover:text-muted-green transition-colors duration-300"
+          >
+            @denlilleblomstergaarden
+          </a>
         </FadeIn>
       </div>
     </section>

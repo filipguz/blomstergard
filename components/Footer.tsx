@@ -12,18 +12,34 @@ export default function Footer() {
               Stavanger, Norge
             </span>
             <span className="hidden md:block w-px h-3 bg-soft-gray" />
-            <span className="font-sans text-[0.65rem] text-muted-green/70 tracking-widest uppercase">
-              @denlilleblomstergarden
-            </span>
+            <a
+              href="https://www.instagram.com/denlilleblomstergaarden/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-sans text-[0.65rem] text-muted-green/70 tracking-widest uppercase hover:text-forest transition-colors duration-300"
+            >
+              @denlilleblomstergaarden
+            </a>
             <span className="hidden md:block w-px h-3 bg-soft-gray" />
             <span className="font-sans text-[0.65rem] text-muted-green/70 tracking-widest uppercase">
               hei@blomstergarden.no
             </span>
           </div>
 
-          <span className="font-sans text-[0.6rem] text-muted-green/40 tracking-widest uppercase">
-            &copy; 2025
-          </span>
+          <div className="flex items-center gap-4">
+            <span className="font-sans text-[0.6rem] text-muted-green/40 tracking-widest uppercase">
+              &copy; 2025
+            </span>
+            <span className="hidden md:block w-px h-3 bg-soft-gray" />
+            <a
+              href="https://github.com/filipguz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-sans text-[0.6rem] text-muted-green/40 tracking-widest uppercase hover:text-muted-green transition-colors duration-300"
+            >
+              Laget av filipguz
+            </a>
+          </div>
         </div>
       </div>
     </footer>
