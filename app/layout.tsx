@@ -22,7 +22,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Den lille blomstergården — Økologiske snittblomster',
   description:
-    'Håndplukket og bærekraftig dyrkede snittblomster fra en liten gård i Stavanger, Norge.',
+    'Håndplukket og bærekraftig dyrkede snittblomster fra en liten gård på Flekkerøya, Kristiansand.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

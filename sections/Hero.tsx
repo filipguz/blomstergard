@@ -44,7 +44,7 @@ export default function Hero() {
             transition: 'opacity 1s ease-out 0.2s',
           }}
         >
-          Stavanger, Norge &nbsp;&mdash;&nbsp; Siden 2023
+          Flekkerøya, Kristiansand &nbsp;&mdash;&nbsp; Siden 2023
         </p>
 
         <h1 className="font-serif text-white leading-[0.92] tracking-tight mb-10">

@@ -9,7 +9,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-6 md:gap-10">
             <span className="font-sans text-[0.65rem] text-muted-green/70 tracking-widest uppercase">
-              Stavanger, Norge
+              Flekkerøya, Kristiansand
             </span>
             <span className="hidden md:block w-px h-3 bg-soft-gray" />
             <a
