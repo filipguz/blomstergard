@@ -1,11 +1,19 @@
+import Image from 'next/image'
+
 export default function Footer() {
   return (
     <footer className="py-16 px-6 border-t border-soft-gray bg-paper">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <span className="font-serif text-forest text-sm tracking-widest">
-            Den lille blomstergården
-          </span>
+          <a href="#">
+            <Image
+              src="/images/logo01.png"
+              alt="Den lille blomstergården"
+              width={180}
+              height={72}
+              className="h-12 w-auto"
+            />
+          </a>
 
           <div className="flex items-center gap-6 md:gap-10">
             <span className="font-sans text-[0.65rem] text-muted-green/70 tracking-widest uppercase">

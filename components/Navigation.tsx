@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import Image from 'next/image'
 
 const links = [
   { label: 'Om oss', href: '#om-oss' },
@@ -39,16 +40,20 @@ export default function Navigation() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 md:px-12 py-5 flex items-center justify-between">
-          <a
-            href="#"
-            onClick={closeMenu}
-            className={`font-serif text-xs tracking-[0.2em] uppercase transition-colors duration-500 ${
-              scrolled && !menuOpen
-                ? 'text-forest hover:text-gold'
-                : 'text-white/85 hover:text-white'
-            }`}
-          >
-            Den lille blomstergården
+          <a href="#" onClick={closeMenu} className="flex items-center">
+            {scrolled && !menuOpen ? (
+              <Image
+                src="/images/logo01.png"
+                alt="Den lille blomstergården"
+                width={160}
+                height={64}
+                className="h-10 w-auto"
+              />
+            ) : (
+              <span className="font-serif text-xs tracking-[0.2em] uppercase text-white/85 hover:text-white transition-colors duration-500">
+                Den lille blomstergården
+              </span>
+            )}
           </a>
 
           {/* Desktop links */}
