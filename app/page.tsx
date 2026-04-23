@@ -3,6 +3,7 @@ import Hero from '@/sections/Hero'
 import Philosophy from '@/sections/Philosophy'
 import SplitSection from '@/sections/SplitSection'
 import Flowers from '@/sections/Flowers'
+import Gallery from '@/sections/Gallery'
 import Experience from '@/sections/Experience'
 import CTA from '@/sections/CTA'
 
@@ -21,6 +22,7 @@ export default function Home() {
           className="object-cover object-center"
         />
       </div>
+      <Gallery />
       <Experience />
       <CTA />
     </main>
