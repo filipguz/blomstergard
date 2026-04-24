@@ -9,7 +9,7 @@ export default function SplitSection({ reverse = false }: SplitSectionProps) {
   const colorBlock = (
     <div className="relative w-full min-h-[480px] md:min-h-[600px] overflow-hidden">
       <Image
-        src="/images/hero01.png"
+        src="/images/nyebilder/hero001.jpeg"
         alt="Blomsteråker"
         fill
         className="object-cover object-center"

@@ -1,4 +1,5 @@
 import FadeIn from '@/components/FadeIn'
+import Image from 'next/image'
 
 const historyParagraphs = [
   'Mitt navn er Caroline, og sammen med min lille familie driver jeg Den lille blomstergården.',
@@ -85,6 +86,18 @@ export default function Philosophy() {
             </div>
           </FadeIn>
         </div>
+
+        {/* ── Familie-bilde ── */}
+        <FadeIn>
+          <div className="relative w-full aspect-[4/3] mb-20 overflow-hidden">
+            <Image
+              src="/images/nyebilder/familie.jpeg"
+              alt="Caroline og familien på blomstergården"
+              fill
+              className="object-cover object-center"
+            />
+          </div>
+        </FadeIn>
 
         {/* ── Vår historie ── */}
         <div className="border-t border-soft-gray pt-20">

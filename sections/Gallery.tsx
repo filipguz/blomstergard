@@ -2,6 +2,7 @@ import Image from 'next/image'
 import FadeIn from '@/components/FadeIn'
 
 const images = [
+  '/images/nyebilder/hero002.jpeg',
   '/images/gallery01.png',
   '/images/hero04.png',
   '/images/gallery02.png',
