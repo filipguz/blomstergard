@@ -59,7 +59,7 @@ export default function Hero() {
             Den lille
           </span>
           <span
-            className="block text-6xl md:text-8xl lg:text-[7.5rem] italic"
+            className="block text-[2.5rem] sm:text-6xl md:text-8xl lg:text-[7.5rem] italic"
             style={{
               opacity: mounted ? 1 : 0,
               transform: mounted ? 'translateY(0)' : 'translateY(20px)',

@@ -15,7 +15,7 @@ export default function Footer() {
             />
           </a>
 
-          <div className="flex items-center gap-6 md:gap-10">
+          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 md:gap-10">
             <span className="font-sans text-[0.65rem] text-muted-green/70 tracking-widest uppercase">
               Flekkerøya, Kristiansand
             </span>
